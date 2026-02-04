@@ -14,7 +14,7 @@
   <!-- Top Nav -->
   <header class="topbar" id="top">
     <div class="container topbar__inner">
-      <a class="brand" href="#top" aria-label="Go to top">
+      <a class="brand" href="#top" id="topbarInner" aria-label="Go to top">
         <span class="brand__mark" aria-hidden="true"></span>
         <span class="brand__text">Juan Sebastian Cadavid</span>
       </a>
@@ -29,7 +29,6 @@
           <a class="nav__link" href="#work">Work</a>
           <a class="nav__link" href="#skills">Skills</a>
           <a class="nav__link" href="#journey">Journey</a>
-          <a class="nav__link" href="#contact">Contact</a>
           <a class="nav__link nav__link--cta" href="#contact">Hire me</a>
         </div>
       </nav>
@@ -67,14 +66,14 @@
           </div>
 
           <div class="proof">
-            <span class="chip">Unity (C#)</span>
-            <span class="chip">Unreal (C++)</span>
-            <span class="chip">Roblox (Lua)</span>
+            <span class="chip chip--soft">Unity (C#)</span>
+            <span class="chip chip--soft">Unreal (C++)</span>
+            <span class="chip chip--soft">Roblox (Lua)</span>
             <span class="chip chip--soft">UEFN (Verse)</span>
-            <span class="chip">Optimization</span>
-            <span class="chip">Multiplayer</span>
-            <span class="chip">Physics</span>
-            <span class="chip">AR/VR</span>
+            <span class="chip chip--soft">Optimization</span>
+            <span class="chip chip--soft">Multiplayer</span>
+            <span class="chip chip--soft">Physics</span>
+            <span class="chip chip--soft">AR/VR</span>
           </div>
         </div>
 
@@ -115,8 +114,8 @@
         <div class="section__head">
           <h2 class="h2">Featured work</h2>
           <p class="sub">
-            A recruiter-friendly selection of projects that showcase systems thinking, performance, and shippable implementation.
-            (Media placeholders for now — we’ll add GIFs/videos later.)
+            A focused selection of shipped work and production-ready prototypes. 
+            Each case study highlights ownership, technical decisions, and measurable impact—written for fast recruiter scanning.
           </p>
         </div>
 
@@ -132,6 +131,42 @@
         </div>
 
         <div class="grid" id="projectGrid">
+                    <!-- 5) UEFN / Raptor Heist -->
+          <article class="card project" data-tags="uefn systems" tabindex="0"
+            data-title="Raptor Heist — Fortnite Island (UEFN LiveOps)"
+            data-role="UEFN & Unreal Engine Developer"
+            data-tech="UEFN · Verse · Live Events · Performance"
+            data-summary="Built multiplayer gameplay systems and devices in Verse for UEFN, iterating from prototype to ship-ready quality. Debugged and optimized gameplay loops and interactive events to meet performance targets on Fortnite platforms."
+            data-bullets="Multiplayer devices & gameplay systems in Verse|Debug + optimization for performance targets|Rapid iteration on gameplay loops & interactive events|Collaboration with design, art and QA"
+            data-results="Shipped: Raptor Heist (Fortnite LiveOps)|Signal: nominated for Fortnite Game Awards (team)|Focus: performance + shippable quality|Notes: clean state handling, reliable loops"
+            data-media-type="video"
+            data-media-src="assets/projects/raptor-heist/preview.mp4"
+            data-media-poster="assets/projects/raptor-heist/cover.png">
+            <div class="card__media">
+                <video class="media" autoplay muted loop playsinline preload="metadata"
+                  poster="assets/projects/raptor-heist/cover.png">
+                  <source src="assets/projects/raptor-heist/preview.mp4" type="video/mp4" />
+                </video>
+            </div>
+            <div class="card__body">
+              <div class="card__top">
+                <h3 class="h3">Raptor Heist — UEFN LiveOps</h3>
+                <span class="badge">Production bonus</span>
+              </div>
+              <p class="card__desc">Ship-ready Verse systems + performance-minded iteration.</p>
+              <div class="tags">
+                <span class="tag">UEFN</span>
+                <span class="tag">Verse</span>
+                <span class="tag">LiveOps</span>
+                <span class="tag">Systems</span>
+              </div>
+              <div class="card__actions">
+                <button class="btn btn--small btn--primary" type="button" data-open="modal">Case study</button>
+                <a class="btn btn--small btn--ghost" href="#contact">Contact</a>
+              </div>
+            </div>
+          </article>
+
           <!-- 1) Avenfor -->
           <article class="card project" data-tags="unreal optimization systems" tabindex="0"
             data-title="Avenfor — Unreal Gameplay Systems (C++)"
@@ -263,46 +298,12 @@
             </div>
           </article>
 
-          <!-- 4) UEFN / Raptor Heist -->
-          <article class="card project" data-tags="uefn systems" tabindex="0"
-            data-title="Raptor Heist — Fortnite Island (UEFN LiveOps)"
-            data-role="UEFN & Unreal Engine Developer"
-            data-tech="UEFN · Verse · Live Events · Performance"
-            data-summary="Built multiplayer gameplay systems and devices in Verse for UEFN, iterating from prototype to ship-ready quality. Debugged and optimized gameplay loops and interactive events to meet performance targets on Fortnite platforms."
-            data-bullets="Multiplayer devices & gameplay systems in Verse|Debug + optimization for performance targets|Rapid iteration on gameplay loops & interactive events|Collaboration with design, art and QA"
-            data-results="Shipped: Raptor Heist (Fortnite LiveOps)|Signal: nominated for Fortnite Game Awards (team)|Focus: performance + shippable quality|Notes: clean state handling, reliable loops"
-            data-media-type="video"
-            data-media-src="assets/projects/raptor-heist/preview.mp4"
-            data-media-poster="assets/projects/raptor-heist/cover.png">
-            <div class="card__media">
-                <video class="media" autoplay muted loop playsinline preload="metadata"
-                  poster="assets/projects/raptor-heist/cover.png">
-                  <source src="assets/projects/raptor-heist/preview.mp4" type="video/mp4" />
-                </video>
-            </div>
-            <div class="card__body">
-              <div class="card__top">
-                <h3 class="h3">Raptor Heist — UEFN LiveOps</h3>
-                <span class="badge badge--soft">Production bonus</span>
-              </div>
-              <p class="card__desc">Ship-ready Verse systems + performance-minded iteration.</p>
-              <div class="tags">
-                <span class="tag">UEFN</span>
-                <span class="tag">Verse</span>
-                <span class="tag">LiveOps</span>
-                <span class="tag">Systems</span>
-              </div>
-              <div class="card__actions">
-                <button class="btn btn--small btn--primary" type="button" data-open="modal">Case study</button>
-                <a class="btn btn--small btn--ghost" href="#contact">Contact</a>
-              </div>
-            </div>
-          </article>
-        </div>
+
 
         <div class="section__footer">
           <p class="muted">
-            Next step: once you approve content and structure, we’ll add real media (GIFs/videos) + links per project.
+            Tip: open any case study to see scope, responsibilities, technical approach, and outcomes. 
+            Media and links are added per project to keep this page fast and recruiter-friendly.
           </p>
         </div>
       </div>
@@ -314,7 +315,9 @@
         <div class="section__head">
           <h2 class="h2">Skills snapshot</h2>
           <p class="sub">
-            Structured for hiring: <strong>systems you can ship</strong>, plus the tools and languages behind them.
+            <!-- Structured for hiring: <strong>systems you can ship</strong>, plus the tools and languages behind them. -->
+            A quick, hiring-oriented view of my strongest areas: gameplay systems, 
+            performance-minded implementation, and the languages/tools I use daily to ship features.
           </p>
         </div>
 
@@ -364,7 +367,7 @@
       <div class="container">
         <div class="section__head">
           <h2 class="h2">Journey</h2>
-          <p class="sub">A quick timeline of where you’ve built and shipped — optimized for fast scanning.</p>
+          <p class="sub">A concise timeline of roles and shipped work—from Unity foundations to Unreal/UEFN production—highlighting growth, ownership, and technical depth.</p>
         </div>
 
         <ol class="timeline">
@@ -462,8 +465,8 @@
 
     <footer class="footer">
       <div class="container footer__inner">
-        <p class="muted">© <span id="year"></span> Juan Sebastian Cadavid. Built for clarity, speed, and hiring outcomes.</p>
-        <a class="toTop" href="#top">Back to top ↑</a>
+        <p class="muted">© <span id="year"></span> Juan Sebastian Cadavid. Gameplay Engineer — Unity · Unreal · UEFN. Built for fast scanning, clear impact, and production credibility.</p>
+        <a class="toTop" href="#top" id="backToTop">Back to top ↑</a>
       </div>
     </footer>
 

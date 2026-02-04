@@ -166,6 +166,25 @@
     setNav(false);
   });
 
+  document.querySelectorAll(".project").forEach((card) => {
+    card.addEventListener("click", (e) => {
+      // Si el click fue en un botón o link dentro de la card, NO interferimos
+      const clickedInteractive = e.target.closest("a, button, input, textarea, select, [data-open]");
+      if (clickedInteractive) return;
+
+      // Abre el modal con los datos de esta card
+      fillCaseFromCard(card);
+      openModal(caseModal);
+    });
+
+    card.addEventListener("keydown", (e) => {
+    if (e.key === "Enter") {
+      fillCaseFromCard(card);
+      openModal(caseModal);
+    }
+  });
+});
+
 
   // Copy email
   function wireCopy(btn) {
@@ -185,6 +204,16 @@
       }
     });
   }
+
+    const backToTop = document.getElementById("backToTop");
+    const topbarInner = document.getElementById("topbarInner");
+
+    if (backToTop || topbarInner) {
+      (backToTop || topbarInner).addEventListener("click", (e) => {
+        e.preventDefault();
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      });
+    }
 
   wireCopy($("#copyEmailBtn"));
   wireCopy($("#copyEmailBtn2"));
