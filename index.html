@@ -1,808 +1,515 @@
-<!DOCTYPE HTML>
-<html>
-	<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Developer &mdash; Juan Sebastian Cadavid Carcamo</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="Juanse Cadavid´s" />
-	<meta name="keywords" content="Developer, Game Tester, Game Designer, Unity, Unreal Engine" />
-	<meta name="author" content="Juan Sebastian Cadavid Carcamo" />
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Juan Sebastian Cadavid — Gameplay Engineer. Systems, performance, and shippable gameplay features (Unity & Unreal). UEFN/Verse experience." />
+  <title>Juan Sebastian Cadavid — Gameplay Engineer</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
 
-  	<!-- Facebook and Twitter integration -->
-	<meta property="og:title" content=""/>
-	<meta property="og:image" content=""/>
-	<meta property="og:url" content=""/>
-	<meta property="og:site_name" content=""/>
-	<meta property="og:description" content=""/>
-	<meta name="twitter:title" content="" />
-	<meta name="twitter:image" content="" />
-	<meta name="twitter:url" content="" />
-	<meta name="twitter:card" content="" />
+<body>
+  <a class="skip-link" href="#work">Skip to work</a>
 
-	<link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
-	
-	<!-- Animate.css -->
-	<link rel="stylesheet" href="css/animate.css">
-	<!-- Icomoon Icon Fonts-->
-	<link rel="stylesheet" href="css/icomoon.css">
-	<!-- Bootstrap  -->
-	<link rel="stylesheet" href="css/bootstrap.css">
+  <!-- Top Nav -->
+  <header class="topbar" id="top">
+    <div class="container topbar__inner">
+      <a class="brand" href="#top" aria-label="Go to top">
+        <span class="brand__mark" aria-hidden="true"></span>
+        <span class="brand__text">Juan Sebastian Cadavid</span>
+      </a>
 
-	<!-- Theme style  -->
-	<link rel="stylesheet" href="css/style.css">
+      <nav class="nav" aria-label="Primary navigation">
+        <button class="nav__toggle" id="navToggle" aria-expanded="false" aria-controls="navMenu">
+          <span class="nav__toggleLines" aria-hidden="true"></span>
+          <span class="sr-only">Open menu</span>
+        </button>
 
-	<!-- Modernizr JS -->
-	<script src="js/modernizr-2.6.2.min.js"></script>
-	<!-- FOR IE9 below -->
-	<!--[if lt IE 9]>
-	<script src="js/respond.min.js"></script>
-	<![endif]-->
+        <div class="nav__menu" id="navMenu">
+          <a class="nav__link" href="#work">Work</a>
+          <a class="nav__link" href="#skills">Skills</a>
+          <a class="nav__link" href="#journey">Journey</a>
+          <a class="nav__link" href="#contact">Contact</a>
+          <a class="nav__link nav__link--cta" href="#contact">Hire me</a>
+        </div>
+      </nav>
+    </div>
+  </header>
 
-	</head>
-	<body>
-		
-	<div class="fh5co-loader"></div>
-	
-	<div id="page">	
-	<header id="fh5co-header" class="fh5co-cover js-fullheight" role="banner" style="background-image:url(images/cover_bg_3.jpg);" data-stellar-background-ratio="0.5">
-		<div class="overlay"></div>
-		<div class="container">
-			<div class="row">
-				<div class="col-md-8 col-md-offset-2 text-center">
-					<div class="display-t js-fullheight">
-						<div class="display-tc js-fullheight animate-box" data-animate-effect="fadeIn">
-							<div class="profile-thumb" style="background: url(images/FotoJuan.jpg);"></div>
-							<h1><span>Juan Sebastian Cadavid Carcamo</span></h1>
-							<h2><span>Teravision Games / Amber studios (Mexico) / Dead Monkey</span></h2>
-							<h3><span>Game Developer / Digital Entertainment Engineer / AR and VR</span></h3>
-							<p>
-								<ul class="fh5co-social-icons">
-									<li><a href="https://instagram.com/juansecadavid?igshid=ZDc4ODBmNjlmNQ=="><i class="icon-instagram2"></i></a></li>
-									<li><a href="https://www.facebook.com/Juansecadavid"><i class="icon-facebook2"></i></a></li>
-									<li><a href="https://www.linkedin.com/in/juan-sebastian-cadavid-carcamo/"><i class="icon-linkedin2"></i></a></li>
-									<li><a href="https://github.com/juansecadavid"><i class="icon-github2"></i></a></li>
-								</ul>
-							</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</header>
+  <main>
+    <!-- Hero -->
+    <section class="hero">
+      <div class="container hero__grid">
+        <div class="hero__content">
+          <p class="eyebrow">
+            <span class="dot" aria-hidden="true"></span>
+            Medellín, Colombia · Open to international roles · English B2
+          </p>
 
-	<div id="fh5co-about" class="animate-box">
-		<div class="container">
-			<div class="row">
-				<div class="navigation-buttons">
-					<!--<a href="#fh5co-features" class="nav-btn">Services</a> -->
-					<a href="#AboutMe" class="nav-btn">Experience</a>
-					<a href="#fh5co-skills" class="nav-btn">Skills</a>
-					<a href="#fh5co-work" class="nav-btn">Projects</a>
-					<a href="#fh5co-started" class="nav-btn">Contact Me</a>
-					<!-- Agrega más botones según las secciones que tengas -->
-				</div>
-				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-					<h2>About Me</h2>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-4">
-					<ul class="info">
-						<li><span class="first-block">Full Name:</span><span class="second-block">Juan Sebstian Cadavid Carcamo</span></li>
-						<li><span class="first-block">Phone:</span><span class="second-block">+57 3215130968</span></li>
-						<li><span class="first-block">Email:</span><span class="second-block">juansecadavid@gmail.com</span></li>
-						<li><span class="first-block">Address:</span><span class="second-block">Medellin, Colombia</span></li>
-					</ul>
-				</div>
-				<div class="col-md-8">
-					<h2>Hello There!</h2>
-					<p>I am Juan Sebastian Cadavid Carcamo, a game developer with nearly 2 years of experience in the game development and digital entertainment industry, based in Medellin, Colombia. My career boasts significant achievements including the successful development of "UPB Runners" for UPB, Brandcade game in Roblox and the new Connect4 by Hasbro con Fortnite!</p>
-					<p>My expertise spans across C#, C++, Lua, Unity, Unreal Engine, Roblox Studio and recently UEFN, with more experience in UNity and UE5, honed through my ongoing Digital Entertainment Engineering education at Universidad Pontificia Bolivariana and an Unreal Engine Certification course. My work reflects a blend of technical proficiency and creative innovation. I excel in transforming ideas into captivating gaming experiences, from concept to implementation, specializing in Physics and Optimization while coding.</p>
-					<p>As a game developer, my skills are complemented by a strong foundation in SOLID patterns, a 90% proficiency in coding and logic thinking for code, and a deep understanding of game desig mechanincs. I am driven by a passion for creating memorable gaming experiences and curiosity to explore new challenges in the field of game development and augmented reality. Additionally, I have experience in team leadership and Freelance environment.</p>
-					<p>
-						<ul class="fh5co-social-icons">
-							<!-- <li><a href="https://www.facebook.com/Juansecadavid"><i class="icon-facebook3"></i></a></li> -->
-							<li><a href="https://www.linkedin.com/in/juan-sebastian-cadavid-carcamo/"><i class="icon-linkedin2"></i></a></li>
-						</ul>
-					</p>
-				</div>
-			</div>
-		</div>
-	</div>
+          <h1 class="h1">
+            Gameplay Engineer
+            <span class="accent">— Systems & Performance</span>
+          </h1>
 
-	<div id="fh5co-resume" class="fh5co-bg-color">
-		<div class="container">
-			<div class="row animate-box">
-				<div id="AboutMe"class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-					<h2>My Experience!</h2>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-12 col-md-offset-0">
-					<ul class="timeline">
-						<li class="timeline-heading text-center animate-box">
-							<div><h3>Work Experience</h3></div>
-						</li>
-						<li class="timeline-inverted animate-box">
-							<div class="timeline-badge"><i class="icon-suitcase"></i></div>
-							<div class="timeline-panel">
-								<div class="timeline-heading">
-									<h3 class="timeline-title">UEFN Programmer</h3>
-									<span class="company">Teravision Games - March 2025 to Present</span>
-								</div>
-								<div class="timeline-body">
-									<p>As a UEFN programmer i am in charge of the devlopment of Fortnite islands. Mi focus is the gameplay, optimization and stability of the game. Currently i have worked on the game award nominee "Havoc Hotels".</p>
-								</div>
-							</div>
-						</li>
-						<li class="animate-box timeline-unverted">
-							<div class="timeline-badge"><i class="icon-suitcase"></i></div>
-							<div class="timeline-panel">
-								<div class="timeline-heading">
-									<h3 class="timeline-title">UEFN Programmer (Mid)</h3>
-									<span class="company">Dead Monkey - October 2024 to March 2025</span>
-								</div>
-								<div class="timeline-body">
-									<p>As a UEFN Programmer i was in charge of the development of Fortnite islands. My role was to use the devics and Verse language to create inmersive experiences for other US companies. My core mechanics were the UI layouts, algorithms, asynchronus tasks and the managment of the persistable data.</p>
-								</div>
-							</div>
-						</li>
-						<li class="timeline-inverted animate-box">
-							<div class="timeline-badge"><i class="icon-suitcase"></i></div>
-							<div class="timeline-panel">
-								<div class="timeline-heading">
-									<h3 class="timeline-title">Engineering Technical Lead (Roblox Studio)</h3>
-									<span class="company">Amber Studios (Mexico) - January to October 2024</span>
-								</div>
-								<div class="timeline-body">
-									<p>As a Developer and Lead Engineer on Brandcade, I spearhead the development of a virtual shopping mall within the Roblox platform. This innovative project aims to bridge the gap between real-world brands and virtual experiences by integrating well-known brands into the Roblox universe. Users can interact with various branded experiences, enhancing their connection with these brands through immersive gameplay and interactive activities. </p>
-								</div>
-							</div>
-						</li>
-						<li class="animate-box timeline-unverted">
-							<div class="timeline-badge"><i class="icon-suitcase"></i></div>
-							<div class="timeline-panel">
-								<div class="timeline-heading">
-									<h3 class="timeline-title">Junior C++ Game Developer (UE5)</h3>
-									<span class="company">Avenfor - September 2023 - To Spetember 2024</span>
-								</div>
-								<div class="timeline-body">
-									<p>Development through C++ mostly and blueprints. The game is like a Pokemon Go style, and my rol was the main character behavior, and interactions with creatures and sort of pet behavior</p>
-									<p>Other interactions included a dialogue system, pick and drop system, switch system, and finally an AI following system for the pets and main player.</p>
-								</div>
-							</div>
-						</li>
-						<li class="timeline-inverted animate-box">
-							<div class="timeline-badge"><i class="icon-suitcase"></i></div>
-							<div class="timeline-panel">
-								<div class="timeline-heading">
-									<h3 class="timeline-title">UPB Runners Game Developer - Project Manager</h3>
-									<span class="company">UPB - May 2023 to  Januray 2024</span>
-								</div>
-								<div class="timeline-body">
-									<p>Mobile endless runner game, developed by me and designed to show in Medellin´s schools what the UPB students can Learn and create. </p>
-									<p>The game was created in Unity 3D and has been a complete succes among different schools, showing incredible development and design skills </p>
-								</div>
-							</div>
-						</li>
-						<li class="animate-box timeline-unverted">
-							<div class="timeline-badge"><i class="icon-suitcase"></i></div>
-							<div class="timeline-panel">
-								<div class="timeline-heading">
-									<h3 class="timeline-title">AR TikTok Effect </h3>
-									<span class="company">For Taymez (Colombian Singer) - October 2023</span>
-								</div>
-								<div class="timeline-body">
-									<p>Augmented Reality Effect, made in Effect House, where people could find out what kind of "Puppynea" are they by a Random wheel selector.</p>
-									<p>The Colombian singer Taymez was promoting his album "Sinestesia where he wanted to increase the engagement with tik tok effects." </p>
-								</div>
-							</div>
-						</li>
-						<br>
-						<li class="timeline-heading text-center animate-box">
-							<div><h3>Education</h3></div>
-						</li>
-						<li class="timeline-inverted animate-box">
-							<div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
-							<div class="timeline-panel">
-								<div class="timeline-heading">
-									<h3 class="timeline-title">Unreal Engine Certification</h3>
-									<span class="company">UETC - may 2023 - Current</span>
-								</div>
-								<div class="timeline-body">
-									<p>Trained by the UETC. Where my skills as a game developer are being taken to the next level in the best Game Engine ever created at the moment, Unreal Engine 5.</p>
-								</div>
-							</div>
-						</li>
-						<li class="animate-box timeline-unverted">
-							<div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
-							<div class="timeline-panel">
-								<div class="timeline-heading">
-									<h3 class="timeline-title">Digital Entertainment Engineer</h3>
-									<span class="company">Universidad Pontificia Bolivariana - 2021 - Current</span>
-								</div>
-								<div class="timeline-body">
-									<p>Where the Game designer/Developer skills started.</p>
-								</div>
-							</div>
-						</li>
-			    	</ul>
-				</div>
-			</div>
-		</div>
-	</div>
-	
-<!--
-	<div id="fh5co-features" class="animate-box">
-		<div class="container">
-			<div class="services-padding">
-				<div class="row">
-					<div id="MyServices"class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-						<h2>My Services</h2>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-4 text-center">
-						<div class="feature-left">
-							<span class="icon">
-								<i class="icon-terminal"></i>
-							</span>
-							<div class="feature-copy">
-								<h3>Game Development (Coding)</h3>
-								<p> I transform ideas into captivating gaming experiences. From conception to implementation, I work closely to create immersive games with level design, programming, and engaging mechanics.</p>
-							</div>
-						</div>
-					</div>
+          <p class="lead">
+            Game Developer with professional experience across <strong>Unity</strong>, <strong>Unreal</strong>, <strong>Roblox</strong>, and <strong>UEFN</strong>.
+            Specialized in gameplay mechanics, AR/VR, multiplayer systems, physics development, and performance optimization.
+          </p>
 
-					<div class="col-md-4 text-center">
-						<div class="feature-left">
-							<span class="icon">
-								<i class="icon-briefcase"></i>
-							</span>
-							<div class="feature-copy">
-								<h3>Game Design (Mechanics)</h3>
-								<p> I craft immersive gaming experiences through the creation of challenging levels, innovative mechanics, and captivating narratives. My goal is to provide players with exciting and engaging gameplay that keeps them hooked from start to finish.</p>
-							</div>
-						</div>
+          <div class="hero__actions">
+            <a class="btn btn--primary" href="#work">View projects</a>
+            <a class="btn btn--ghost" href="assets/docs/Juan_Sebastian_Cadavid_CV.pdf" target="_blank" rel="noreferrer">
+              Resume (PDF)
+            </a>
+            <button class="btn btn--ghost" type="button" id="copyEmailBtn" data-email="juansecadavid@gmail.com">
+              Copy email
+            </button>
+          </div>
 
-					</div>
-					<div class="col-md-4 text-center">
-						<div class="feature-left">
-							<span class="icon">
-								<i class="icon-terminal"></i>
-							</span>
-							<div class="feature-copy">
-								<h3>AR TikTok Effects</h3>
-								<p> I turn awesome and funny virtual mechanincs, into incredible Augmented Reality Effects using TikTok Effect House.</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			-->
-<!--
-				<div class="row">
-					<div class="col-md-4 text-center">
-						<div class="feature-left">
-							<span class="icon">
-								<i class="icon-genius"></i>
-							</span>
-							<div class="feature-copy">
-								<h3>Web Marketing</h3>
-								<p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit.</p>
-							</div>
-						</div>
+          <div class="proof">
+            <span class="chip">Unity (C#)</span>
+            <span class="chip">Unreal (C++)</span>
+            <span class="chip">Roblox (Lua)</span>
+            <span class="chip chip--soft">UEFN (Verse)</span>
+            <span class="chip">Optimization</span>
+            <span class="chip">Multiplayer</span>
+            <span class="chip">Physics</span>
+            <span class="chip">AR/VR</span>
+          </div>
+        </div>
 
-					</div>
-					<div class="col-md-4 text-center">
-						<div class="feature-left">
-							<span class="icon">
-								<i class="icon-chat"></i>
-							</span>
-							<div class="feature-copy">
-								<h3>Support</h3>
-								<p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit.</p>
-							</div>
-						</div>
-					</div>
-				</div> -->
-			</div>
-		</div>
-	</div>
+        <aside class="hero__panel" aria-label="Key highlights">
+          <div class="panel">
+            <h2 class="h2">Recruiter highlights</h2>
+            <ul class="list">
+              <li><strong>Shipped titles</strong> across Fortnite, Roblox and Mobile (Play Store).</li>
+              <li><strong>Performance mindset</strong>: improved performance by <strong>20%</strong> on a UE project (code + resources).</li>
+              <li><strong>UEFN LiveOps</strong>: shipped and supported live Fortnite islands (incl. Raptor Heist).</li>
+              <li><strong>Extra signal</strong>: Raptor Heist nominated for Fortnite Game Awards (team island).</li>
+            </ul>
 
-	<div id="fh5co-skills" class="animate-box">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-					<h2>Skills</h2>
-				</div>
-			</div>
-			<div class="row row-pb-md">
-				<div class="col-md-3 col-sm-6 col-xs-12 text-center">
-					<div class="chart" data-percent="100"><span><strong>Passion for making Games!</strong>1000%</span></div>
-				</div>
-				<div class="col-md-3 col-sm-6 col-xs-12 text-center">
-					<div class="chart" data-percent="90"><span><strong>OOP</strong>90%</span></div>
-				</div>
-				<div class="col-md-3 col-sm-6 col-xs-12 text-center">
-					<div class="chart" data-percent="80"><span><strong>S.O.L.I.D Principles</strong>80%</span></div>
-				</div>
-				<div class="col-md-3 col-sm-6 col-xs-12 text-center">
-					<div class="chart" data-percent="70"><span><strong>Physics Expertise</strong>70%</span></div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-6">
-					<div class="progress-wrap">
-						<h3><span class="name-left">C#</span><span class="value-right">90%</span></h3>
-						<div class="progress">
-						  <div class="progress-bar progress-bar-1 progress-bar-striped active" role="progressbar"
-						  aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:90%">
-						  </div>
-						</div>
-					</div>
-					<div class="progress-wrap">
-						<h3><span class="name-left">C++</span><span class="value-right">60%</span></h3>
-						<div class="progress">
-						  <div class="progress-bar progress-bar-2 progress-bar-striped active" role="progressbar"
-						  aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width:60%">
-						  </div>
-						</div>
-					</div>
-					<div class="progress-wrap">
-						<h3><span class="name-left">Git</span><span class="value-right">95%</span></h3>
-						<div class="progress">
-						  <div class="progress-bar progress-bar-4 progress-bar-striped active" role="progressbar"
-						  aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width:95%">
-						  </div>
-						</div>
-					</div>
-					<div class="progress-wrap">
-						<h3><span class="name-left">Unity AR/VR (Meta Quest)</span><span class="value-right">70%</span></h3>
-						<div class="progress">
-						  <div class="progress-bar progress-bar-5 progress-bar-striped active" role="progressbar"
-						  aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">
-						  </div>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-6">
-					<div class="progress-wrap">
-						<h3><span class="name-left">Unity 2D-3D</span><span class="value-right">80%</span></h3>
-						<div class="progress">
-						  <div class="progress-bar progress-bar-3 progress-bar-striped active" role="progressbar"
-						  aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%">
-						  </div>
-						</div>
-					</div>
-					<div class="progress-wrap">
-						<h3><span class="name-left">Unreal Engine</span><span class="value-right">70%</span></h3>
-						<div class="progress">
-						  <div class="progress-bar progress-bar-5 progress-bar-striped active" role="progressbar"
-						  aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">
-						  </div>
-						</div>
-					</div>
-					<div class="progress-wrap">
-						<h3><span class="name-left">Roblox Studio</span><span class="value-right">85%</span></h3>
-						<div class="progress">
-						  <div class="progress-bar progress-bar-6 progress-bar-striped active" role="progressbar"
-						  aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width:85%">
-						  </div>
-						</div>
-					</div>
-					<div class="progress-wrap">
-						<h3><span class="name-left">Unreal Editor for fortnite</span><span class="value-right">90%</span></h3>
-						<div class="progress">
-						  <div class="progress-bar progress-bar-1 progress-bar-striped active" role="progressbar"
-						  aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:90%">
-						  </div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-					<p>Some additional skills include Firebase, Vuforia, Zenject, PlayFab, Photon, and AWS GameLift. Additionally, I have a basic knowledge of tools and technologies focused on physics development, such as NVIDIA PhysX, Havok, Box2D, and Bullet Physics. While my proficiency in these areas is at an introductory level, I am continually improving and expanding my expertise daily.</p>
-				</div>
-			</div>
-		</div>
-	</div>
+            <div class="miniStats" aria-label="Quick stats">
+              <div class="miniStat">
+                <div class="miniStat__label">Role focus</div>
+                <div class="miniStat__value">Gameplay Systems</div>
+              </div>
+              <div class="miniStat">
+                <div class="miniStat__label">Strength</div>
+                <div class="miniStat__value">Optimization + Problem Solving</div>
+              </div>
+              <div class="miniStat">
+                <div class="miniStat__label">Stack</div>
+                <div class="miniStat__value">Unity · Unreal · Roblox · UEFN</div>
+              </div>
+            </div>
+          </div>
+        </aside>
+      </div>
 
-	<div id="fh5co-work" class="fh5co-bg-dark">
-		<div class="container">
-			<div class="row animate-box">
-				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-					<h2>My Awesome Projects!</h2>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-3 text-center col-padding animate-box">
-					<a href="#UPBrunners" class="work" style="background-image: url(images/icono-UPBrunners.jpeg);">
-						<div class="desc">
-							<h3>UPB Runners</h3>
-							<span>Unity 3D - Mobile</span>
-						</div>
-					</a>
-				</div>
-				<div class="col-md-3 text-center col-padding animate-box">
-					<a href="#CastleBreakers" class="work" style="background-image: url(images/CastleLogo.png);">
-						<div class="desc">
-							<h3>Castle Breakers</h3>
-							<span>Unreal Engine 5 - PC</span>
-						</div>
-					</a>
-				</div>
-				<div class="col-md-3 text-center col-padding animate-box">
-					<a href="#SkateSim" class="work" style="background-image: url(images/SkateSim.png);">
-						<div class="desc">
-							<h3>Skate Simulator</h3>
-							<span>Unreal Engine 5 - PC</span>
-						</div>
-					</a>
-				</div>
-				<div class="col-md-3 text-center col-padding animate-box">
-					<a href="#PorqueNoYo" class="work" style="background-image: url(images/pqny.png);">
-						<div class="desc">
-							<h3> ¿Y por qué no yo?</h3>
-							<span>Unity VR - Oculus Meta Quest</span>
-						</div>
-					</a>
-				</div>
-				<div class="col-md-3 text-center col-padding animate-box">
-					<a href="#Basketbar" class="work" style="background-image: url(images/Basketbar.png);">
-						<div class="desc">
-							<h3>BasketbAR</h3>
-							<span>AR tiktok Effect</span>
-							<span>My job was code how the Effect works, spinning the wheel, and choosing a Random result</span>
-						</div>
-					</a>
-				</div>
-				<div class="col-md-3 text-center col-padding animate-box">
-					<a href="#NadieSabe" class="work" style="background-image: url(images/GanaderoInteligente.png);">
-						<div class="desc">
-							<h3>Ganadero Inteligente (The Game)</h3>
-							<span>Unity 3D - WebGl</span>
-						</div>
-					</a>
-				</div>
-				<div class="col-md-3 text-center col-padding animate-box">
-					<a href="https://www.roblox.com/games/14983485047/Brandcade" class="work" style="background-image: url(images/BrandacdeMain.png);">
-						<div class="desc">
-							<h3>Brandcade!</h3>
-							<span>Roblox Studio - PC/Mobile</span>
-						</div>
-					</a>
-				</div>
-				<div class="col-md-3 text-center col-padding animate-box">
-					<a href="https://www.roblox.com/games/17661725734/UPDATE-Smell-my-feet" class="work" style="background-image: url(images/SmellMyFeetMain.png);">
-						<div class="desc">
-							<h3>Smell My Feet</h3>
-							<span>Roblox Studio - PC/Mobile</span>
-						</div>
-					</a>
-				</div>
-				<div class="col-md-3 text-center col-padding animate-box">
-					<a href="#UPBrunners" class="work" style="background-image: url(images/UpbRunnersLogo.PNG);">
-						<div class="desc">
-							<h3>UPB Runners</h3>
-							<span>Design</span>
-						</div>
-					</a>
-				</div>
-				<div class="col-md-3 text-center col-padding animate-box">
-					<a href="#ShadowBank" class="work" style="background-image: url(images/ShadowBank.PNG);">
-						<div class="desc">
-							<h3>ShadowBank</h3>
-							<span>PC Game</span>
-						</div>
-					</a>
-				</div>
-				<div class="col-md-3 text-center col-padding animate-box">
-					<a href="#FoodNightmares" class="work" style="background-image: url(images/FN1.jpeg);">
-						<div class="desc">
-							<h3>Food Nightmares</h3>
-							<span>PC Game</span>
-						</div>
-					</a>
-				</div>
-				<div class="col-md-3 text-center col-padding animate-box">
-					<a href="#BreathAndPass" class="work" style="background-image: url(images/BreathAndPass.PNG);">
-						<div class="desc">
-							<h3>Breath And Pass</h3>
-							<span>PC Game</span>
-						</div>
-					</a>
-				</div>
-			</div>
-		</div>
-	</div>
+      <div class="hero__fade" aria-hidden="true"></div>
+    </section>
 
-	<div id="fh5co-blog">
-		<div class="container">
-			<div class="row animate-box">
-				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-					<h2>Take a deeper look!</h2>
-					<p>The deeper you see, the most you like my progress. And this is just the beginning!</p>
-				</div>
-			</div>
-			<div id="UPBrunners" class="row">
-				<div class="col-md-4">
-					<div class="fh5co-blog animate-box">
-						<div class="blog-bg">
-							<iframe src="https://drive.google.com/file/d/1KPnI-4goN7kmLekwLvj1IYSSCCwGzEF4/preview" width="320" height="240" frameborder="0" allow="autoplay" allowfullscreen></iframe>
-						</div>
-						<div class="blog-text">
-							<span class="posted_on">Beta (Unity 3D), 2023</span>
-							<h3><a>UPB Runners</a></h3>
-							<p>UPB Runners is an endless runner made in Unity 3D, fully programmed by me. This project highlights my skills in C#, where I developed a custom-built player controller with smooth and realistic animations. I manually created the physics to ensure precise and engaging gameplay.</p>
-							<p>In addition to the core mechanics, I focused extensively on optimization and lighting. These efforts improved the game's performance and visual appeal, demonstrating my ability to enhance both functionality and aesthetics.</p>
-							<p>UPB Runners showcases my technical skills and ability to handle complex game development tasks independently. From scripting and physics to optimization and lighting, this project reflects my comprehensive skill set and dedication to creating high-quality, polished games.</p>
-							<ul class="stuff">
-								<li><i class="icon-heart2"></i>250</li>
-								<li><i class="icon-eye2"></i>458</li>
-								<li><a href="https://github.com/juansecadavid/UPBrunners">GitHub Repo<i class="icon-arrow-right22"></i></a></li>
-							</ul>
-							<iframe frameborder="0" src="https://itch.io/embed/2371429" width="208" height="167"><a href="https://juansecadavid.itch.io/upb-runners">UPB Runners by Juan Sebastian Cadavid</a></iframe>
-						</div> 
-					</div>
-				</div>
-				<div id="CastleBreakers" class="col-md-4">
-					<div class="fh5co-blog animate-box">
-						<div class="blog-bg">
-							<iframe src="https://drive.google.com/file/d/1gCAbHCjOOqyyoWzacPP1IA4MNDx3QTOs/preview" width="320" height="240" frameborder="0" allow="autoplay" allowfullscreen></iframe>
-						</div>
-						<div class="blog-text">
-							<span class="posted_on">Demo (Unreal Engine 5), November 2023</span>
-							<h3><a>Castle Breakers</a></h3>
-							<p>Created as my final project for the Unreal Engine certification, this game showcases everything I learned during my training. It includes cinematics, particle effects, camera shake, and an audio system, combining these elements to create a comprehensive demonstration of my skills.</p>
-							<p>The entire game was programmed by me, highlighting my ability to handle all aspects of development. I used free character models, allowing me to focus on programming and integration, demonstrating mytechnical capabilities.</p>
-							<p>This project is special because it represents significant growth in my career. Completing it marked a new era in my skills as a game developer, reflecting my dedication to learning and my ability to apply complex concepts effectively.</p>
-							<ul class="stuff">
-								<li><i class="icon-heart2"></i>232</li>
-								<li><i class="icon-eye2"></i>698</li>
-								<li><a href="https://drive.google.com/file/d/1TJBN2SutBXtUcR1A7E6ryAOtOPRMbc9U/view?usp=drivesdk">GitHub Repo<i class="icon-arrow-right22"></i></a></li>
-							</ul>
-							<iframe frameborder="0" src="https://itch.io/embed/2379071?border_width=0" width="206" height="165"><a href="https://juansecadavid.itch.io/castle-breakers">Castle Breakers by Juan Sebastian Cadavid</a></iframe>
-						</div> 
-					</div>
-				</div>
-				<div id="SkateSim" class="col-md-4">
-					<div class="fh5co-blog animate-box">
-						<div class="blog-bg">
-							<iframe src="https://drive.google.com/file/d/17zJrJnr7ONFUeuH2sYWCx5X9e7r-G14e/preview" width="320" height="240" frameborder="0" allow="autoplay" allowfullscreen></iframe>
-						</div>
-						<div class="blog-text">
-							<span class="posted_on">Demo (Unreal Engine 5), 2024</span>
-							<h3><a>Skateboard Simulator</a></h3>
-							<p>This project was a solo endeavor, developed entirely by me in just 15 hours. My goal was to showcase my ability to create a functional game over a weekend, demonstrating my coding skills using Unreal Engine's blueprint and C++ under tight deadlines.</p>
-							<p>Technically, I focused primarily on the player controller in order to capture the authentic feel of riding a skateboard. Significant attention was given to the physics, ensuring realistic interactions between the player, skateboard, obstacles, and jumps.</p>
-							<p>Additional features include Mixamo animations, a points system, and environment design. While the game is far from market-ready and has plenty of room for improvement, the challenge was to create something functional within a short time frame.</p>
-							<ul class="stuff">
-								<li><i class="icon-heart2"></i>128</li>
-								<li><i class="icon-eye2"></i>154</li>
-								<li><a href="https://github.com/juansecadavid/JuanSebastianCadavid_SkateBoardingSimUE5">GitHub Repo<i class="icon-arrow-right22"></i></a></li>
-							</ul>
-							<iframe frameborder="0" src="https://itch.io/embed/2803125?border_width=0" width="206" height="165"><a href="https://yeyeymc.itch.io/por-qu-no-yo-vr-experience">¿Y por qué no yo? VR Experience by Yeison Munoz, Juan Sebastian Cadavid</a></iframe>
-						</div> 
-					</div>
-				</div>
-				<div class="col-md-4">
-					<div class="fh5co-blog animate-box">
-						<a id="GanaderoInteligente" class="blog-bg" style="background-image: url(images/GanaderoInteligente.png);"></a>
-						<div class="blog-text">
-							<span class="posted_on">Full (Unity 3D), 2024</span>
-							<h3><a>Ganadero Inteligente (The Game)</a></h3>
-							<p>I developed a WebGL game for COP 16 in Colombia as a freelance project, taking responsibility for most of the development. The primary challenges were optimizing the game for WebGL and creating algorithms to simulate natural cow behavior in a dynamic environment. I also implemented interactions between the farmer, the seeds, and the cows to enhance gameplay</p>
-							<p>The project was completed in just one month, highlighting my ability to work efficiently under tight deadlines while maintaining quality. It also reflects my teamwork and problem-solving skills, as I managed to deliver a polished product under significant time constraints.</p>
-							<ul class="stuff">
-								<li><i class="icon-heart2"></i>719</li>
-								<li><i class="icon-eye2"></i>904</li>
-								<li><a href="https://github.com/juansecadavid/GanaderoInteligenteGame">GitHub Repo<i class="icon-arrow-right22"></i></a></li>
-							</ul>
-							<iframe frameborder="0" src="https://itch.io/embed/3049485" width="208" height="167"><a href="https://cacaobeans-studio.itch.io/ganadero-inteligente">Ganadero Inteligente (The Game) by CacaoBeans_Studio, Juan Sebastian Cadavid</a></iframe>
-						</div> 
-					</div>
-				</div>
-				<div id="PorqueNoYo" class="col-md-4">
-					<div class="fh5co-blog animate-box">
-						<div class="blog-bg">
-							<iframe src="https://drive.google.com/file/d/1XhHMSVzGnRuHnial1SOk9Yv8-5pax0Oi/preview" width="320" height="240" frameborder="0" allow="autoplay" allowfullscreen></iframe>
-						</div>
-						<div class="blog-text">
-							<span class="posted_on">Demo (Unity AR/VR), 2024</span>
-							<h3><a>¿Porque No Yo?</a></h3>
-							<p>This project was made for the Oculus Meta Quest 2, utilizing the Meta All in One toolkit for Unity developers. In this demo, users can interact in various ways, such as grabbing body parts to assemble a basic human body and touching UI buttons to advance through stages of the experience. The interactions are designed to be intuitive, allowing users to navigate the demo using just their hands.</p>
-							<p>My role involved developing the grabbing and touching interactions using hand tracking, crucial for creating an immersive VR experience. I focused on ensuring the interactions were smooth and responsive, enhancing user engagement. This project introduced me to VR development in Unity, expanding my skill set and demonstrating my proficiency in creating interactive and engaging VR content.</p>
-							<ul class="stuff">
-								<li><i class="icon-heart2"></i>128</li>
-								<li><i class="icon-eye2"></i>154</li>
-								<li><a href="https://photos.app.goo.gl/DG1b9fdLugSW9HwE6">Gitlab Repo<i class="icon-arrow-right22"></i></a></li>
-							</ul>
-							<iframe frameborder="0" src="https://itch.io/embed/2803125?border_width=0" width="206" height="165"><a href="https://yeyeymc.itch.io/por-qu-no-yo-vr-experience">¿Y por qué no yo? VR Experience by Yeison Munoz, Juan Sebastian Cadavid</a></iframe>
-						</div> 
-					</div>
-				</div>
-				<div id="Basketbar" class="col-md-4">
-					<div class="fh5co-blog animate-box">
-						<div class="blog-bg">
-							<iframe src="https://drive.google.com/file/d/1am7d5iQr0bfQVUgbZgoh-gXBxw0E2jT5/preview" width="320" height="240" frameborder="0" allow="autoplay" allowfullscreen></iframe>
-						</div>
-						<div class="blog-text">
-							<span class="posted_on">Personal Demo (Unity AR/VR), 2024</span>
-							<h3><a>BasketbAR</a></h3>
-							<p>BasketbAR is an augmented reality project developed in Unity 3D using Vuforia. The game involves shooting basketballs into a virtual hoop that appears on top of a Coca-Cola can, transforming the can's top into the hoop. I integrated Vuforia with Unity and the can, ensuring a smooth AR experience. I also developed the physics for throwing the basketball, including a curve effect on the ball’s trajectory.</p>
-							<p>Additionally, I created a comprehensive scoring system to track player performance and enhance the game's competitive aspect. This project highlights my skills in AR integration, physics simulation, and game mechanics development, showcasing my technical expertise in Unity 3D and Vuforia, as well as my creativity in designing engaging gameplay elements.</p>
-							<ul class="stuff">
-								<li><i class="icon-heart2"></i>250</li>
-								<li><i class="icon-eye2"></i>458</li>
-								<li><a href="https://photos.app.goo.gl/DG1b9fdLugSW9HwE6">GitHub Repo<i class="icon-arrow-right22"></i></a></li>
-							</ul>
-							<iframe frameborder="0" src="https://itch.io/embed/2801661" width="208" height="167"><a href="https://yeyeymc.itch.io/basketbar">BasketbAR by Yeison Munoz, Juan Sebastian Cadavid</a></iframe>
-						</div> 
-					</div>
-				</div>
-				<div class="col-md-4">
-					<div class="fh5co-blog animate-box">
-						<a id="ShadowBank" class="blog-bg" style="background-image: url(images/ShadowBank.PNG);"></a>
-						<div class="blog-text">
-							<span class="posted_on">Full (Unity 2D), 2023</span>
-							<h3><a>ShadowBank</a></h3>
-							<p>During my university studies, I developed a 2D game using Unity's Universal Render Pipeline (URP) to experiment with lighting. The game features a thief breaking into a bank at night, and my primary focus was creating atmospheric lighting to evoke a shadowy, tense mood. This project helped me master URP lighting techniques while developing mechanics to enhance the gameplay experience.</p>
-							<p>The challenges included implementing patrol AI, character tracking without pathfinding, and sequential actions that resolved puzzle-like levels. This project demonstrated my ability to design and program engaging mechanics while experimenting with tools and techniques that pushed my skills forward.</p>
-							<ul class="stuff">
-								<li><i class="icon-heart2"></i>232</li>
-								<li><i class="icon-eye2"></i>698</li>
-								<li><a href="https://juansecadavid.itch.io/shadowbank">GitHub Repo<i class="icon-arrow-right22"></i></a></li>
-							</ul>
-							<iframe frameborder="0" src="https://itch.io/embed/2171543?border_width=0" width="206" height="165"><a href="https://juansecadavid.itch.io/shadowbank">ShadowBank by Juan Sebastian Cadavid</a></iframe>
-						</div> 
-					</div>
-				</div>
-				<div class="col-md-4">
-					<div class="fh5co-blog animate-box">
-						<a id="BreathAndPass" class="blog-bg" style="background-image: url(images/BreathAndPass.PNG);"></a>
-						<div class="blog-text">
-							<span class="posted_on">Full (Unity 2D), 2022</span>
-							<h3><a>Breath Andd Pass</a></h3>
-							<p>Early in my career, I developed a 2D game while exploring Unity for the first time. Although I lacked experience with design patterns, this project marked an important step in learning the fundamentals of game development. I implemented patrol behaviors and 2D movement mechanics, gaining confidence in Unity's tools and workflows.</p>
-							<p>The game also featured attack mechanics and special abilities such as invincibility and speed boosts. These elements allowed me to experiment with player mechanics and refine my programming skills. This project reflects the foundational stage of my journey as a game developer, where curiosity and experimentation were key.</p>
-							<ul class="stuff">
-								<li><i class="icon-heart2"></i>270</li>
-								<li><i class="icon-eye2"></i>782</li>
-								<li><a href="https://juansecadavid.itch.io/breath-and-pass">GitHub Repo<i class="icon-arrow-right22"></i></a></li>
-							</ul>
-							<iframe frameborder="0" src="https://itch.io/embed/2170055?border_width=0" width="206" height="165"><a href="https://juansecadavid.itch.io/breath-and-pass">Breath and Pass by juansecadavid</a></iframe>
-						</div> 
-					</div>
-				</div>
-				<div id="NadieSabe" class="col-md-4">
-					<div class="fh5co-blog animate-box">
-						<div class="blog-bg">
-							<iframe src="https://drive.google.com/file/d/1BRWo8S0cmdHi2ZCokzlR6UQI_XdUpF41/preview" width="320" height="240" frameborder="0" allow="autoplay" allowfullscreen></iframe>
-						</div>
-						<div class="blog-text">
-							<span class="posted_on">Demo (Unity 2D), 2023</span>
-							<h3><a>Procedural Illumination</a></h3>
-							<p>In this project, I created a demo featuring a character that walks procedurally to the rhythm of "Nadie Sabe" by Bad Bunny. The character's movement is synced with the song, moving forward only when the singer sings. This added a dynamic and engaging aspect to the demo, ensuring that the character's actions were perfectly in time with the music.</p>
-							<p>I utilized a frequency detector to enhance the visual experience. This detector changed the lighting, turning lights on and off and altering their colors based on the song's frequencies. Additionally, the demo included symbolic actions tied to the song's lyrics, with the character appearing in different poses and performing various actions as the song progressed. This project showcases my ability to integrate audio with character animation and lighting effects, creating an immersive and interactive experience.</p>
-							<ul class="stuff">
-								<li><i class="icon-heart2"></i>2166</li>
-								<li><i class="icon-eye2"></i>2318</li>
-							</ul>
-						</div> 
-					</div>
-				</div>
-				<!--<div class="col-md-4">
-					<div class="fh5co-blog animate-box">
-						<a id="FoodNightmares" class="blog-bg" style="background-image: url(images/FoodNightmares.PNG);"></a>
-						<div class="blog-text">
-							<span class="posted_on">Full (Unity 2D), 2021</span>
-							<h3><a>Food Nightmares</a></h3>
-							<p>Embark on an action-packed adventure in "Food Nightmares." Help Edgar fight junk food monsters and conquer culinary fears. Are you ready?.</p>
-							<ul class="stuff">
-								<li><i class="icon-heart2"></i>341</li>
-								<li><i class="icon-eye2"></i>903</li>
-								<li><a href="https://juansecadavid.itch.io/food-nightmares">GitHub Repo<i class="icon-arrow-right22"></i></a></li>
-							</ul>
-							<iframe frameborder="0" src="https://itch.io/embed/2169985?border_width=0" width="206" height="165"><a href="https://juansecadavid.itch.io/food-nightmares">Food Nightmares by juansecadavid</a></iframe>
-						</div> 
-					</div>
-				</div> -->
-			</div>
-		</div>
-	</div>
-	
-	<div id="fh5co-started" class="fh5co-bg-dark">
-		<div class="overlay"></div>
-		<div class="container">
-			<div class="row animate-box">
-				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-					<h2>Let´s get to work!</h2>
-					<p>Are you in need of a skilled video game designer and developer for your project? Let me assist you in bringing your visions to life and crafting unique experiences!.</p>
-					<p><a href="https://wa.me/qr/HWWSCVWQRRM3L1" class="btn btn-default btn-lg">Contact Me</a></p>
-				</div>
-			</div>
-		</div>
-	</div>
-<!--  Contact Prefab
-	<div id="fh5co-consult">
-		<div class="video fh5co-video" style="background-image: url(images/cover_bg_1.jpg);">
-			<div class="overlay"></div>
-		</div>
-		<div class="choose animate-box">
-			<h2>Contact</h2>
-			<form action="#">
-				<div class="row form-group">
-					<div class="col-md-6">
-						<input type="text" id="fname" class="form-control" placeholder="Your firstname">
-					</div>
-				</div>
-				<div class="row form-group">
-					<div class="col-md-6">
-						<input type="text" id="lname" class="form-control" placeholder="Your lastname">
-					</div>
-				</div>
+    <!-- Work -->
+    <section class="section" id="work">
+      <div class="container">
+        <div class="section__head">
+          <h2 class="h2">Featured work</h2>
+          <p class="sub">
+            A recruiter-friendly selection of projects that showcase systems thinking, performance, and shippable implementation.
+            (Media placeholders for now — we’ll add GIFs/videos later.)
+          </p>
+        </div>
 
-				<div class="row form-group">
-					<div class="col-md-12">
-						<input type="text" id="email" class="form-control" placeholder="Your email address">
-					</div>
-				</div>
+        <div class="filters" role="toolbar" aria-label="Project filters">
+          <button class="filter is-active" data-filter="all" type="button">All</button>
+          <button class="filter" data-filter="unity" type="button">Unity</button>
+          <button class="filter" data-filter="unreal" type="button">Unreal</button>
+          <button class="filter" data-filter="uefn" type="button">UEFN</button>
+          <button class="filter" data-filter="roblox" type="button">Roblox</button>
+          <button class="filter" data-filter="systems" type="button">Systems</button>
+          <button class="filter" data-filter="physics" type="button">Physics</button>
+          <button class="filter" data-filter="optimization" type="button">Optimization</button>
+        </div>
 
-				<div class="row form-group">
-					<div class="col-md-12">
-						<input type="text" id="subject" class="form-control" placeholder="Your subject of this message">
-					</div>
-				</div>
+        <div class="grid" id="projectGrid">
+          <!-- 1) Avenfor -->
+          <article class="card project" data-tags="unreal optimization systems" tabindex="0"
+            data-title="Avenfor — Unreal Gameplay Systems (C++)"
+            data-role="Unreal Engine Game Developer"
+            data-tech="Unreal Engine · C++ · Gameplay Systems · Optimization"
+            data-summary="Implemented gameplay mechanics and interactive systems in Unreal Engine while leading C++ integration. Focused on performance, resource management, and clean gameplay iteration."
+            data-bullets="C++ integration + gameplay architecture|Interactive mechanics & systems implementation|Profiling and optimization passes|Efficient resource management and iteration"
+            data-results="Performance improvement: +20%|Focus: frame stability & resource usage|Deliverable: shippable gameplay systems|Notes: clean, maintainable C++">
+            <div class="card__media">
+              <div class="mediaPlaceholder">
+                <span>Gameplay video/GIF placeholder</span>
+              </div>
+            </div>
+            <div class="card__body">
+              <div class="card__top">
+                <h3 class="h3">Avenfor — Unreal Gameplay Systems</h3>
+                <span class="badge">Optimization</span>
+              </div>
+              <p class="card__desc">C++ systems + performance improvements (+20%).</p>
+              <div class="tags">
+                <span class="tag">Unreal</span>
+                <span class="tag">C++</span>
+                <span class="tag">Optimization</span>
+                <span class="tag">Systems</span>
+              </div>
+              <div class="card__actions">
+                <button class="btn btn--small btn--primary" type="button" data-open="modal">Case study</button>
+                <a class="btn btn--small btn--ghost" href="#contact">Contact</a>
+              </div>
+            </div>
+          </article>
 
-				<div class="row form-group">
-					<div class="col-md-12">
-						<textarea name="message" id="message" cols="30" rows="10" class="form-control" placeholder="Say something about your idea"></textarea>
-					</div>
-				</div>
-				<div class="form-group">
-					<input type="submit" value="Send Message" class="btn btn-primary">
-				</div>
+          <!-- 2) UPB Runners -->
+          <article class="card project" data-tags="unity systems" tabindex="0"
+            data-title="UPB Runners — Unity 2D (Mobile)"
+            data-role="Unity Game Developer"
+            data-tech="Unity · C# · 2D Gameplay · UX"
+            data-summary="Designed and developed a Unity 2D game focused on gameplay mechanics and user experience, increasing user engagement by 25%."
+            data-bullets="Core gameplay loop + mechanics|UX-driven iteration|Polish and feel improvements|Delivery for mobile release"
+            data-results="Engagement: +25%|Platform: Mobile (Play Store)|Focus: mechanics + UX|Outcome: shipped project"
+            data-media-type="image"
+            data-media-src="assets/projects/upb-runners/cover.png">
+            <div class="card__media">
+              <img class="media" src="assets/projects/upb-runners/cover.png" alt="UPB Runners gameplay screenshot">
+            </div>
+            <div class="card__body">
+              <div class="card__top">
+                <h3 class="h3">UPB Runners — Unity 2D</h3>
+                <span class="badge">Gameplay</span>
+              </div>
+              <p class="card__desc">Mechanics + UX → +25% engagement.</p>
+              <div class="tags">
+                <span class="tag">Unity</span>
+                <span class="tag">C#</span>
+                <span class="tag">Mobile</span>
+                <span class="tag">UX</span>
+              </div>
+              <div class="card__actions">
+                <button class="btn btn--small btn--primary" type="button" data-open="modal">Case study</button>
+                <a class="btn btn--small btn--ghost" href="#contact">Contact</a>
+              </div>
+            </div>
+          </article>
 
-			</form>	
-		</div>
-	</div>
-	-->
-	<div id="fh5co-footer">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12">
-					<p>&copy; 2023 Juan Sebastian Cadavid. All Rights Reserved.</p>
-				</div>
-			</div>
-		</div>
-	</div>
+          <!-- 3) Brandcade -->
+          <article class="card project" data-tags="roblox systems optimization" tabindex="0"
+            data-title="Brandcade — Roblox Live Game (Lead Engineer)"
+            data-role="Roblox Studio Lead of Programming & Engineering"
+            data-tech="Roblox Studio · Lua · Team Leadership · Optimization"
+            data-summary="Led and managed a team of developers on a large-scale Roblox project (Brandcade). Developed and optimized gameplay while ensuring code quality and delivery against deadlines."
+            data-bullets="Team leadership and delivery ownership|Gameplay development in Roblox Studio|Optimization & iteration on live content|Code quality + deadline management"
+            data-results="Project: Brandcade (Roblox)|Role: Lead Engineer|Outcome: shipped / maintained live work|Focus: quality + delivery">
+            <div class="card__media">
+              <div class="mediaPlaceholder">
+                <span>Gameplay video/GIF placeholder</span>
+              </div>
+            </div>
+            <div class="card__body">
+              <div class="card__top">
+                <h3 class="h3">Brandcade — Roblox (Lead)</h3>
+                <span class="badge">Systems</span>
+              </div>
+              <p class="card__desc">Leadership + optimization on a large-scale Roblox project.</p>
+              <div class="tags">
+                <span class="tag">Roblox</span>
+                <span class="tag">Lua</span>
+                <span class="tag">Leadership</span>
+                <span class="tag">Optimization</span>
+              </div>
+              <div class="card__actions">
+                <button class="btn btn--small btn--primary" type="button" data-open="modal">Case study</button>
+                <a class="btn btn--small btn--ghost" href="#contact">Contact</a>
+              </div>
+            </div>
+          </article>
 
-	<div class="gototop js-top">
-		<a href="#" class="js-gotop"><i class="icon-arrow-up22"></i></a>
-	</div>
-	
-	<!-- jQuery -->
-	<script src="js/jquery.min.js"></script>
-	<!-- jQuery Easing -->
-	<script src="js/jquery.easing.1.3.js"></script>
-	<!-- Bootstrap -->
-	<script src="js/bootstrap.min.js"></script>
-	<!-- Waypoints -->
-	<script src="js/jquery.waypoints.min.js"></script>
-	<!-- Stellar Parallax -->
-	<script src="js/jquery.stellar.min.js"></script>
-	<!-- Easy PieChart -->
-	<script src="js/jquery.easypiechart.min.js"></script>
-	<!-- Google Map -->
-	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCefOgb1ZWqYtj7raVSmN4PL2WkTrc-KyA&sensor=false"></script>
-	<script src="js/google_map.js"></script>
-	
-	<!-- Main -->
-	<script src="js/main.js"></script>
+          <!-- 4) UEFN / Raptor Heist -->
+          <article class="card project" data-tags="uefn systems" tabindex="0"
+            data-title="Raptor Heist — Fortnite Island (UEFN LiveOps)"
+            data-role="UEFN & Unreal Engine Developer"
+            data-tech="UEFN · Verse · Live Events · Performance"
+            data-summary="Built multiplayer gameplay systems and devices in Verse for UEFN, iterating from prototype to ship-ready quality. Debugged and optimized gameplay loops and interactive events to meet performance targets on Fortnite platforms."
+            data-bullets="Multiplayer devices & gameplay systems in Verse|Debug + optimization for performance targets|Rapid iteration on gameplay loops & interactive events|Collaboration with design, art and QA"
+            data-results="Shipped: Raptor Heist (Fortnite LiveOps)|Signal: nominated for Fortnite Game Awards (team)|Focus: performance + shippable quality|Notes: clean state handling, reliable loops">
+            <div class="card__media">
+              <div class="mediaPlaceholder">
+                <video class="media" autoplay muted loop playsinline preload="metadata"
+                  poster="assets/projects/raptor-heist/cover.png">
+                  <source src="assets/projects/raptor-heist/preview.mp4" type="video/mp4" />
+                </video>
+              </div>
+            </div>
+            <div class="card__body">
+              <div class="card__top">
+                <h3 class="h3">Raptor Heist — UEFN LiveOps</h3>
+                <span class="badge badge--soft">Production bonus</span>
+              </div>
+              <p class="card__desc">Ship-ready Verse systems + performance-minded iteration.</p>
+              <div class="tags">
+                <span class="tag">UEFN</span>
+                <span class="tag">Verse</span>
+                <span class="tag">LiveOps</span>
+                <span class="tag">Systems</span>
+              </div>
+              <div class="card__actions">
+                <button class="btn btn--small btn--primary" type="button" data-open="modal">Case study</button>
+                <a class="btn btn--small btn--ghost" href="#contact">Contact</a>
+              </div>
+            </div>
+          </article>
 
-	</body>
+          <!-- 4) UEFN / Raptor Heist -->
+          <article class="card project" data-tags="uefn systems" tabindex="0"
+            data-title="Raptor Heist — Fortnite Island (UEFN LiveOps)"
+            data-role="UEFN & Unreal Engine Developer"
+            data-tech="UEFN · Verse · Live Events · Performance"
+            data-summary="Built multiplayer gameplay systems and devices in Verse for UEFN, iterating from prototype to ship-ready quality. Debugged and optimized gameplay loops and interactive events to meet performance targets on Fortnite platforms."
+            data-bullets="Multiplayer devices & gameplay systems in Verse|Debug + optimization for performance targets|Rapid iteration on gameplay loops & interactive events|Collaboration with design, art and QA"
+            data-results="Shipped: Raptor Heist (Fortnite LiveOps)|Signal: nominated for Fortnite Game Awards (team)|Focus: performance + shippable quality|Notes: clean state handling, reliable loops"
+            data-media-type="video"
+            data-media-src="assets/projects/raptor-heist/preview.mp4"
+            data-media-poster="assets/projects/raptor-heist/cover.png">
+            <div class="card__media">
+                <video class="media" autoplay muted loop playsinline preload="metadata"
+                  poster="assets/projects/raptor-heist/cover.png">
+                  <source src="assets/projects/raptor-heist/preview.mp4" type="video/mp4" />
+                </video>
+            </div>
+            <div class="card__body">
+              <div class="card__top">
+                <h3 class="h3">Raptor Heist — UEFN LiveOps</h3>
+                <span class="badge badge--soft">Production bonus</span>
+              </div>
+              <p class="card__desc">Ship-ready Verse systems + performance-minded iteration.</p>
+              <div class="tags">
+                <span class="tag">UEFN</span>
+                <span class="tag">Verse</span>
+                <span class="tag">LiveOps</span>
+                <span class="tag">Systems</span>
+              </div>
+              <div class="card__actions">
+                <button class="btn btn--small btn--primary" type="button" data-open="modal">Case study</button>
+                <a class="btn btn--small btn--ghost" href="#contact">Contact</a>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <div class="section__footer">
+          <p class="muted">
+            Next step: once you approve content and structure, we’ll add real media (GIFs/videos) + links per project.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="section section--alt" id="skills">
+      <div class="container">
+        <div class="section__head">
+          <h2 class="h2">Skills snapshot</h2>
+          <p class="sub">
+            Structured for hiring: <strong>systems you can ship</strong>, plus the tools and languages behind them.
+          </p>
+        </div>
+
+        <div class="cols">
+          <div class="card card--flat">
+            <h3 class="h3">Gameplay Programming</h3>
+            <ul class="pillList">
+              <li class="pill">Gameplay mechanics</li>
+              <li class="pill">Interactive systems</li>
+              <li class="pill">Multiplayer gameplay</li>
+              <li class="pill">Physics-driven gameplay</li>
+              <li class="pill">AR/VR interactions</li>
+            </ul>
+          </div>
+
+          <div class="card card--flat">
+            <h3 class="h3">Performance & Problem Solving</h3>
+            <ul class="pillList">
+              <li class="pill">Optimization</li>
+              <li class="pill">Profiling mindset</li>
+              <li class="pill">Resource management</li>
+              <li class="pill">Debug & iteration</li>
+              <li class="pill">Code quality</li>
+            </ul>
+          </div>
+
+          <div class="card card--flat">
+            <h3 class="h3">Tech Stack</h3>
+            <ul class="pillList">
+              <li class="pill">C++</li>
+              <li class="pill">C#</li>
+              <li class="pill">Lua</li>
+              <li class="pill">Verse</li>
+              <li class="pill">JavaScript</li>
+              <li class="pill">Unity</li>
+              <li class="pill">Unreal Engine</li>
+              <li class="pill">Roblox Studio</li>
+              <li class="pill">UEFN</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Journey -->
+    <section class="section" id="journey">
+      <div class="container">
+        <div class="section__head">
+          <h2 class="h2">Journey</h2>
+          <p class="sub">A quick timeline of where you’ve built and shipped — optimized for fast scanning.</p>
+        </div>
+
+        <ol class="timeline">
+          <li class="timeline__item">
+            <div class="timeline__dot" aria-hidden="true"></div>
+            <div class="timeline__content">
+              <div class="timeline__top">
+                <span class="timeline__title">Teravision Games</span>
+                <span class="timeline__meta">Mar 2025 – Present · UEFN & Unreal</span>
+              </div>
+              <p class="muted">
+                UEFN/Unreal gameplay development in a live production environment. Shipped Fortnite LiveOps work, including Raptor Heist.
+              </p>
+            </div>
+          </li>
+
+          <li class="timeline__item">
+            <div class="timeline__dot" aria-hidden="true"></div>
+            <div class="timeline__content">
+              <div class="timeline__top">
+                <span class="timeline__title">Beyond Reality Studio</span>
+                <span class="timeline__meta">Jan 2025 – Jun 2025 · Roblox</span>
+              </div>
+              <p class="muted">
+                Built scalable gameplay and UI systems in Lua, focusing on clean reusable patterns, networking, and live updates.
+              </p>
+            </div>
+          </li>
+
+          <li class="timeline__item">
+            <div class="timeline__dot" aria-hidden="true"></div>
+            <div class="timeline__content">
+              <div class="timeline__top">
+                <span class="timeline__title">Amber Studios</span>
+                <span class="timeline__meta">Jan 2024 – Oct 2024 · Roblox Lead</span>
+              </div>
+              <p class="muted">
+                Led engineering on Brandcade: team management, optimization, code quality, and delivery against deadlines.
+              </p>
+            </div>
+          </li>
+
+          <li class="timeline__item">
+            <div class="timeline__dot" aria-hidden="true"></div>
+            <div class="timeline__content">
+              <div class="timeline__top">
+                <span class="timeline__title">Avenfor</span>
+                <span class="timeline__meta">Sep 2023 – Aug 2024 · Unreal</span>
+              </div>
+              <p class="muted">
+                Unreal gameplay systems in C++ with performance improvements (+20%) through optimization and resource management.
+              </p>
+            </div>
+          </li>
+
+          <li class="timeline__item">
+            <div class="timeline__dot" aria-hidden="true"></div>
+            <div class="timeline__content">
+              <div class="timeline__top">
+                <span class="timeline__title">UPB</span>
+                <span class="timeline__meta">Mar 2023 – Jan 2024 · Unity</span>
+              </div>
+              <p class="muted">
+                Unity 2D gameplay development with an engagement uplift (+25%) on UPB Runners.
+              </p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section section--cta" id="contact">
+      <div class="container cta">
+        <div class="cta__copy">
+          <h2 class="h2">Let’s build something players feel.</h2>
+          <p class="sub">
+            Hiring for <strong>Gameplay Engineer</strong> roles (Unity/Unreal)? I’m ready to help your team ship.
+          </p>
+          <p class="muted" style="margin:10px 0 0;">
+            Medellín, Colombia · +57 321-513-0968 · juansecadavid@gmail.com
+          </p>
+        </div>
+
+        <div class="cta__actions">
+          <a class="btn btn--primary" href="mailto:juansecadavid@gmail.com">Email me</a>
+          <button class="btn btn--ghost" type="button" id="copyEmailBtn2" data-email="juansecadavid@gmail.com">Copy email</button>
+
+          <!-- Update these links if needed -->
+          <a class="btn btn--ghost" href="https://www.linkedin.com/in/juan-sebastian-cadavid-carcamo/" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a class="btn btn--ghost" href="https://github.com/juansecadavid" aria-disabled="true">GitHub</a>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container footer__inner">
+        <p class="muted">© <span id="year"></span> Juan Sebastian Cadavid. Built for clarity, speed, and hiring outcomes.</p>
+        <a class="toTop" href="#top">Back to top ↑</a>
+      </div>
+    </footer>
+
+    <!-- Case Study Modal -->
+    <div class="modal" id="caseModal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <div class="modal__backdrop" data-close="modal"></div>
+
+      <div class="modal__panel" role="document">
+        <button class="modal__close" type="button" data-close="modal" aria-label="Close case study">✕</button>
+
+        <div class="modal__header">
+          <h2 class="h2" id="modalTitle">Project Title</h2>
+          <p class="muted" id="modalMeta">Role · Tech</p>
+        </div>
+
+        <div class="modal__body">
+          <section class="modalBlock">
+            <h3 class="h3">Overview</h3>
+            <p id="modalSummary" class="muted"></p>
+          </section>
+
+          <section class="modalBlock">
+            <h3 class="h3">What I built</h3>
+            <ul class="list" id="modalBullets"></ul>
+          </section>
+
+          <section class="modalBlock">
+            <h3 class="h3">Results</h3>
+            <ul class="list" id="modalResults"></ul>
+          </section>
+
+          <section class="modalBlock">
+            <h3 class="h3">Media</h3>
+            <div id="modalMedia" class="modalMedia"></div>
+          </section>
+        </div>
+
+        <div class="modal__footer">
+          <button class="btn btn--primary" type="button" data-close="modal">Done</button>
+          <a class="btn btn--ghost" href="#contact">Contact</a>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
 </html>
-
